@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Platform-specific VS Code settings path
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  VSCODE_CONFIG_PATH="$HOME/.config/Code/User"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  VSCODE_CONFIG_PATH="$HOME/Library/Application Support/Code/User"
+elif [[ "$OSTYPE" == "msys" ]]; then
+  VSCODE_CONFIG_PATH="$APPDATA\\Code\\User"
+else
+  echo "Unsupported OS"
+  exit 1
+fi
+
+# Copy your custom keybindings
+mkdir -pv "$VSCODE_CONFIG_PATH"
+cp ./keybindings.json "$VSCODE_CONFIG_PATH/keybindings.json"
+
+echo "✅ VS Code keybindings installed to $VSCODE_CONFIG_PATH"
