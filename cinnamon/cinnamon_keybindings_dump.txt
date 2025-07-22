@@ -1,0 +1,35 @@
+[/]
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', '__dummy__']
+looking-glass-keybinding=@as []
+
+[custom-keybindings/custom0]
+binding=['<Primary><Alt>e']
+command='nemo .'
+name='Open File Manager'
+
+[custom-keybindings/custom1]
+binding=['<Primary><Alt>s']
+command='open-ss'
+name='Open Screenshots'
+
+[custom-keybindings/custom2]
+binding=['<Primary>comma']
+command='cinnamon-settings'
+name='Open Cinnamon Settings'
+
+[custom-keybindings/custom3]
+binding=['<Shift><Alt>t']
+command='focusterm'
+name='focusterm'
+
+[media-keys]
+area-screenshot=['<Shift>F9']
+screensaver=['<Super>l', 'XF86ScreenSaver']
+touchpad-toggle=['<Super>space']
+
+[wm]
+increase-opacity=@as []
+close=['<Primary>w']
+minimize=['<Primary><Alt>space']
+show-desktop=['<Super>d']
+toggle-maximized=['<Alt>F10', '<Super>Return']

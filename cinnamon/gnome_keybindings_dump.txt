@@ -1,0 +1,11 @@
+[gnome-screenshot]
+auto-save-directory='/home/ramya/Desktop/screenshots'
+
+[libgnomekbd/keyboard]
+options=['caps\tcaps:escape']
+
+[terminal/legacy/keybindings]
+move-tab-left='<Primary><Shift>Up'
+move-tab-right='<Primary><Shift>Down'
+next-tab='<Primary>Down'
+prev-tab='<Primary>Up'
