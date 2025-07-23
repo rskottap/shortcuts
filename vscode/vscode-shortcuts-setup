@@ -16,6 +16,7 @@ fi
 
 # Copy your custom keybindings
 mkdir -pv "$VSCODE_CONFIG_PATH"
-cp ./keybindings.json "$VSCODE_CONFIG_PATH/keybindings.json"
+ln -svf $PWD/keybindings.json "$VSCODE_CONFIG_PATH/keybindings.json"
+ln -svf $PWD/settings.json "$VSCODE_CONFIG_PATH/settings.json"
 
-echo "✅ VS Code keybindings installed to $VSCODE_CONFIG_PATH"
+echo "✅ VS Code keybindings and settings installed to $VSCODE_CONFIG_PATH"
