@@ -1,5 +1,5 @@
 [/]
-custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4', '__dummy__']
+custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4']
 looking-glass-keybinding=@as []
 
 [custom-keybindings/custom0]
@@ -24,7 +24,7 @@ name='focusterm'
 
 [custom-keybindings/custom4]
 binding=['<Primary><Alt>b']
-command='xeyes'
+command='open-obsidian'
 name='Open Obsidian'
 
 [media-keys]
