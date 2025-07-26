@@ -19,5 +19,6 @@ bold-is-bright=true
 foreground-color='rgb(208,207,204)'
 scroll-on-output=true
 scrollback-lines=100000
+use-system-font=false
 use-theme-colors=false
 visible-name='Default'
