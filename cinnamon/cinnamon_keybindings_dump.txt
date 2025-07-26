@@ -22,6 +22,11 @@ binding=['<Shift><Alt>t']
 command='focusterm'
 name='focusterm'
 
+[custom-keybindings/custom4]
+binding=['<Primary><Alt>b']
+command='xeyes'
+name='Open Obsidian'
+
 [media-keys]
 area-screenshot=['<Shift>F9']
 screensaver=['<Super>l', 'XF86ScreenSaver']
