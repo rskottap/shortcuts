@@ -2,4 +2,4 @@
 
 dconf load /org/cinnamon/desktop/keybindings/ < cinnamon_keybindings_dump.txt
 dconf load /org/gnome/ < gnome_keybindings_dump.txt
-dconf load /org/ < org_settings.txt
+dconf load / < org_settings.txt

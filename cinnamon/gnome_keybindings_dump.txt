@@ -13,7 +13,7 @@ prev-tab='<Primary>Up'
 [legacy/profiles:]
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
 
-[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(26,23,23)'
 bold-is-bright=true
 foreground-color='rgb(208,207,204)'
