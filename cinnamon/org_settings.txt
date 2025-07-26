@@ -14,6 +14,7 @@ window-size=(1096, 828)
 
 [org/nemo/preferences]
 default-folder-viewer='list-view'
+show-full-path-titles=true
 
 [org/nemo/window-state]
 geometry='800x550+319+92'
