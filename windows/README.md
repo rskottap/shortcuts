@@ -39,6 +39,8 @@ That will stop Windows from launching the Snipping Tool when you press `PrtSc`.
 
 ## AutoHotKey Shortcut setup
 
+Install AutoHotKey v2.
+
 `shortcuts.ahk` and `screenshot.ahk` are the two scripts.
 
 ### Add scripts to startup
