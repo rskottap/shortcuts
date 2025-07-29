@@ -1,20 +1,20 @@
 ﻿#Requires AutoHotkey v2.0
 
 ; Open WSL terminal for NixOS in normal window (not maximized)
-^!b::  ; Ctrl+Alt+B
+^!t::  ; Ctrl+Alt+T
 {
     Run 'wt wsl -d nixos', , "Normal"
 }
 
 
 ; Open Obsidian
-+!o::  ; Shift+Alt+O
+^!b::  ; Ctrl+Alt+B
 {
     Run "obsidian://open?vault=EchoIQ"
 }
 
 ; Open File Explorer
-+!e::  ; Shift+Alt+E
+^!e::  ; Ctrl+Alt+E
 {
     Run "explorer.exe"
 }
@@ -33,12 +33,6 @@
     WinMinimize "A"
 }
 
-; Show desktop (Windows + D)
-^!d::  ; Ctrl+Alt+D
-{
-    Send "#d"
-}
-
 ; Alt+F10 or Win+Enter: Toggle active window maximize/restore
 !F10::
 #Enter::
@@ -48,6 +42,12 @@
         WinRestore hwnd
     else
         WinMaximize hwnd
+}
+
+; Close Window
+^q::	;Ctrl+Q
+{
+    WinClose "A"
 }
 
 ; Ctrl+Shift+C = Copy
