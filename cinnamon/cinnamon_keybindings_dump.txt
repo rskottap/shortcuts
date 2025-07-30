@@ -39,6 +39,12 @@ minimize=['<Primary><Alt>space']
 show-desktop=['<Super>d']
 toggle-maximized=['<Alt>F10', '<Super>Return']
 
+[desktop/screensaver]
+font-date='Monospace Italic 18'
+font-message='Monospace 24'
+font-time='Monospace 64'
+use-custom-format=true
+
 [desktop/interface]
 gtk-theme='Mint-Y-Dark-Blue'
 icon-theme='kora-light'
