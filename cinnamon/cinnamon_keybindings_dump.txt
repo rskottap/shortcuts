@@ -1,38 +1,38 @@
-[/]
+[desktop/keybindings]
 custom-list=['custom0', 'custom1', 'custom2', 'custom3', 'custom4']
 looking-glass-keybinding=@as []
 
-[custom-keybindings/custom0]
+[desktop/keybindings/custom-keybindings/custom0]
 binding=['<Primary><Alt>e']
 command='nemo .'
 name='Open File Manager'
 
-[custom-keybindings/custom1]
+[desktop/keybindings/custom-keybindings/custom1]
 binding=['<Primary><Alt>s']
 command='open-ss'
 name='Open Screenshots'
 
-[custom-keybindings/custom2]
+[desktop/keybindings/custom-keybindings/custom2]
 binding=['<Primary>comma']
 command='cinnamon-settings'
 name='Open Cinnamon Settings'
 
-[custom-keybindings/custom3]
+[desktop/keybindings/custom-keybindings/custom3]
 binding=['<Shift><Alt>t']
 command='focusterm'
 name='focusterm'
 
-[custom-keybindings/custom4]
+[desktop/keybindings/custom-keybindings/custom4]
 binding=['<Primary><Alt>b']
 command='open-obsidian'
 name='Open Obsidian'
 
-[media-keys]
+[desktop/keybindings/media-keys]
 area-screenshot=['<Shift>F9']
 screensaver=['<Super>l', 'XF86ScreenSaver']
 touchpad-toggle=['<Super>space']
 
-[wm]
+[desktop/keybindings/wm]
 increase-opacity=@as []
 close=['<Primary>q']
 minimize=['<Primary><Alt>space']
@@ -42,3 +42,6 @@ toggle-maximized=['<Alt>F10', '<Super>Return']
 [desktop/interface]
 gtk-theme='Mint-Y-Dark-Blue'
 icon-theme='kora-light'
+
+[theme]
+name='cinnamon'
