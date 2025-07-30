@@ -38,3 +38,7 @@ close=['<Primary>q']
 minimize=['<Primary><Alt>space']
 show-desktop=['<Super>d']
 toggle-maximized=['<Alt>F10', '<Super>Return']
+
+[desktop/interface]
+gtk-theme='Mint-Y-Dark-Blue'
+icon-theme='kora-light'
