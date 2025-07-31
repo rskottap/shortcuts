@@ -22,3 +22,8 @@ scrollback-lines=100000
 use-system-font=false
 use-theme-colors=false
 visible-name='Default'
+
+[desktop/interface]
+clock-format='12h'
+clock-show-date=true
+

@@ -46,6 +46,8 @@ font-time='Monospace 64'
 use-custom-format=true
 
 [desktop/interface]
+clock-show-date=true
+clock-use-24h=false
 gtk-theme='Mint-Y-Dark-Blue'
 icon-theme='kora-light'
 
