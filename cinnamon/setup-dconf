@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+dconf load /org/cinnamon/ < cinnamon.txt
+dconf load /org/gnome/ < gnome.txt
+dconf load / < org.txt

@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-dconf load /org/cinnamon/ < cinnamon_keybindings_dump.txt
-dconf load /org/gnome/ < gnome_keybindings_dump.txt
-dconf load / < org_settings.txt
