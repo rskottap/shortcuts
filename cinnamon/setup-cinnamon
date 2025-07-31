@@ -10,6 +10,7 @@ python <<- EOF
 	dict['menu-custom']['value'] = True
 	dict['menu-icon']['value'] = os.path.expanduser('~/.local/share/icons/start.png')
 	dict['menu-icon-size']['value'] = 32.0
+	dict['menu-label']['value'] = ""
 	json.dump(dict, open(file, 'w'))
 EOF
 
