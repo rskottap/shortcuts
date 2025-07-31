@@ -5,26 +5,26 @@ set -euo pipefail
 python <<- EOF
 	import os
 	import json
-	file = "$HOME/.config/cinnamon/spices/menu@cinnamon.org/0.json"
+	file = os.path.expanduser("~/.config/cinnamon/spices/menu@cinnamon.org/0.json")
 	dict = json.load(open(file))
 	dict['menu-custom']['value'] = True
-	dict['menu-icon']['value'] = '$HOME/.local/share/icons/start.png'
-    dict['menu-icon-size']['value'] = 32
+	dict['menu-icon']['value'] = os.path.expanduser('~/.local/share/icons/start.png')
+	dict['menu-icon-size']['value'] = 32.0
 	json.dump(dict, open(file, 'w'))
 EOF
 
 python <<- EOF
 	import os
 	import json
-	file = "$HOME/.config/cinnamon/spices/grouped-window-list@cinnamon.org/2.json"
+	file = os.path.expanduser("~/.config/cinnamon/spices/grouped-window-list@cinnamon.org/2.json")
 	dict = json.load(open(file))
 	dict['pinned-apps']['value'] = [
-        "nemo.desktop",
-        "org.gnome.Terminal.desktop",
-        "cinnamon-settings.desktop",
-        "obsidian.desktop",
-        "google-chrome.desktop",
-        "code.desktop"
-    ]
+		"nemo.desktop",
+		"org.gnome.Terminal.desktop",
+		"cinnamon-settings.desktop",
+		"obsidian.desktop",
+		"google-chrome.desktop",
+		"code.desktop"
+	]
 	json.dump(dict, open(file, 'w'))
 EOF
