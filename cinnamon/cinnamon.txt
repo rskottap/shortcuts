@@ -44,6 +44,7 @@ font-date='Monospace Italic 18'
 font-message='Monospace 24'
 font-time='Monospace 64'
 use-custom-format=true
+time-format='%I:%M %p'
 
 [desktop/interface]
 clock-show-date=true
