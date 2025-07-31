@@ -30,15 +30,31 @@
     "when": "terminalFocus"
   },
 
-  // Split terminal switching: Ctrl+left/right
+  // Word navigation in terminal: Ctrl+left/right
   {
     "key": "ctrl+left",
-    "command": "workbench.action.terminal.focusPreviousPane",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001bb" },
     "when": "terminalFocus"
   },
   {
     "key": "ctrl+right",
-    "command": "workbench.action.terminal.focusNextPane",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u001bf" },
+    "when": "terminalFocus"
+  },
+
+  // Line navigation in terminal: Ctrl+A (start) and Ctrl+E (end)
+  {
+    "key": "ctrl+a",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u0001" },
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u0005" },
     "when": "terminalFocus"
   },
 
