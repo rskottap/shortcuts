@@ -52,5 +52,11 @@ clock-use-24h=false
 gtk-theme='Mint-Y-Dark-Blue'
 icon-theme='kora-light'
 
+[desktop/wm/preferences]
+mouse-button-modifier=''
+
+[gestures]
+mouse-button-modifier=''
+
 [theme]
 name='cinnamon'
