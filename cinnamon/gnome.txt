@@ -2,10 +2,10 @@
 auto-save-directory='/home/ramya/Desktop/screenshots'
 
 [libgnomekbd/keyboard]
-options=['caps:escape']
+options=['caps:escape_shifted_capslock']
 
 [desktop/input-sources]
-xkb-options=['caps:escape']
+xkb-options=['caps:escape_shifted_capslock']
 
 [terminal/legacy/keybindings]
 move-tab-left='<Primary><Shift>Up'
