@@ -60,3 +60,6 @@ mouse-button-modifier=''
 
 [theme]
 name='cinnamon'
+
+[desktop/input-sources]
+xkb-options=['terminate:ctrl_alt_bksp','caps:escape_shifted_capslock']
