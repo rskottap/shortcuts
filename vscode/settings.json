@@ -2,5 +2,6 @@
     "files.autoSave": "afterDelay",
     "python.defaultInterpreterPath": "/run/current-system/sw/bin/python3",
     "editor.largeFileOptimizations": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "vscode-office.editorTheme": "Auto"
 }
