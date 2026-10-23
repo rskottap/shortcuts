@@ -3,5 +3,6 @@
     "python.defaultInterpreterPath": "/run/current-system/sw/bin/python3",
     "editor.largeFileOptimizations": false,
     "security.workspace.trust.untrustedFiles": "open",
-    "vscode-office.editorTheme": "Light"
+    "vscode-office.editorTheme": "Light",
+    "terminal.integrated.initialHint": false
 }
